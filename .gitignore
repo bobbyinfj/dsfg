@@ -1,8 +1,6 @@
 data/
 .ipynb_checkpoints/
 *.pdf
-*.docx
-*.csv
 *.db
 *.doc
 *.zip
