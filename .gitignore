@@ -1,15 +1,3 @@
 data/
 .ipynb_checkpoints/
-*.pdf
 *.db
-*.doc
-*.zip
-*.txt
-CityofLA/Additional data/Description of promotions in job bulletins.docx
-CityofLA/Additional data/job bulletins with annotations/Annotation elements with description.docx
-CityofLA/Additional data/job_titles.csv
-CityofLA/Additional data/kaggle_data_dictionary.csv
-CityofLA/Additional data/sample job class export template.csv
-CityofLA/.DS_Store
-CityofLA/Additional data/.DS_Store
-CityofLA/Additional data/PDFs/.DS_Store
