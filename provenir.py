@@ -65,9 +65,10 @@ def print_results(path, files, fn, double_space=False):
         job_path = path + file_name            # define path to file_name
         job_info = open(job_path, 'rt').read() # read in job as a string
         try:
-            print(fn(job_info))
-            if double_space:                   # add double-space to ease printout reading
-                print()
+            result = fn(job_info)
+            if double_space:                   # add double-space to aid result visualization
+                result += '\n'
+            print(result)
         except:
             catch_bad_jobs(job_path)           # catch jobs that fail the try clause
             
